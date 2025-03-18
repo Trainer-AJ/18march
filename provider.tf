@@ -10,11 +10,11 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "assignment-dev-env-tfstate"
+    bucket = "AJ-the-user-tfstate"
     key    = "test/test.tfstate"
-    region = "ap-south-1"
+    region = "us-east-1"
     # use_lockfile = true
-    dynamodb_table = "TF-state-locking"
+    dynamodb_table = "mumbai-dynamodb"
   }
 }
 
