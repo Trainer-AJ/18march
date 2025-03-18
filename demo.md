@@ -32,10 +32,10 @@
 ---
 
 #### 4. **Create file*
-   - **Command**: `echo "I am the greatest > readme.md"`
+   - **Command**: `echo "I am the greatest" > readme.md`
    - **Explanation**: create  a new file 
    ```bash
-   echo "I am the greatest > readme.md"
+   echo "I am the greatest" > readme.md
    ```
 
 ---
