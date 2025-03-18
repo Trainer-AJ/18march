@@ -31,11 +31,11 @@
 
 ---
 
-#### 4. **List All Files Including Hidden Files**
+#### 4. **Create file*
    - **Command**: `echo "I am the greatest > readme.md"`
-   - **Explanation**: This lists all files in the current directory, including hidden files (those starting with a dot `.`).
+   - **Explanation**: create  a new file 
    ```bash
-   ls
+   echo "I am the greatest > readme.md"
    ```
 
 ---
