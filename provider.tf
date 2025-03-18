@@ -10,11 +10,11 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "AJ-the-user-tfstate"
+    bucket = var.bucket
     key    = "test/test.tfstate"
-    region = "us-east-1"
+    region = var.region
     # use_lockfile = true
-    dynamodb_table = "mumbai-dynamodb"
+    dynamodb_table = var.table
   }
 }
 
