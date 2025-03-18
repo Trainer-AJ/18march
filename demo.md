@@ -17,7 +17,7 @@
    - **Command**: `cd Downloads`
    - **Explanation**: This moves the terminal's current directory to `Downloads` where your project or files are located.
    ```bash
-   cd Downloads
+   cd Downloads && mkdir my-code
    ```
 
 ---
