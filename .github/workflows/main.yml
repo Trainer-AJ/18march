@@ -5,9 +5,15 @@ name: Comparing with Azure Pipeline
 #  trigger:
 #   - conflict
 on:
+ # ALLOW TO RUN MANUALLY .... ELSE not possible
+  workflow_dispatch: {}
+
+  # RUN WHEN CHNAGE HAPPENS IN CONFLICT BRANCH
   push:
     branches:
       - conflict 
+ 
+ 
 
 # # pool:
 #    vmImage: ubuntu-latest
